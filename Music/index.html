@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/10f7594fc6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Yo-Yo Player</title>
+
+</head>
+<body id="body">
+    <div class="music-box main-div main-div2" id="music-box">
+       
+        <div class="top-box">
+        <div class="Player-name">
+            <h3>Anurag's Player</h3>
+           </div>
+  
+          <div class="song-image" id="disk">
+              <img src="" id="song-img" alt="">
+          </div>
+       </div>
+        
+
+        <div class="mid-box">
+            <div class="title" id="title">
+                <h3 id="song-name">Name</h3>
+            </div>
+
+            <audio src="" id="audio"></audio>
+
+            
+            <div class="song-slider">
+                <input type="range" value="0" class="seek-bar" id="seek-bar">
+                <span class="current-time" id="current-time">00:00</span>
+                <span class="song-duration" id="song-duration">00:00</span>
+            </div>
+            
+            
+            
+            
+            
+                
+        
+                  <div class="controls">
+                    <div class="btn back-btn " id="pre"><button class="btn backward-btn "><img class="button-img" src="https://e1.pngegg.com/pngimages/235/474/png-clipart-devine-icons-play-backwards-thumbnail.png" alt=""></button></div>
+                    
+                    <div id="button"  class="button"  onclick="this.classList.toggle('active')">
+                        <div class="fondo" x="0" y="0" width="200" height="200"></div>
+                        <div class="icono" width="200" height="200">
+                          <div class="parte izquierda" x="0" y="0" width="200" height="200" fill="#fff"></div>
+                          <div class="parte derecha" x="0" y="0" width="200" height="200" fill="#fff"></div>
+                        </div>
+                        <div class="puntero" id="puntero"></div>
+                      </div> 
+                      <div class="btn for-btn" id="next"> <button class="btn forward-btn"><img class="button-img" src="https://png.pngtree.com/element_our/20190528/ourmid/pngtree-fast-forward-icon-image_1128381.jpg" alt=""></button></div>
+                   
+                </div> 
+                  
+            </div>
+        </div>
+        
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./music.js"></script>
+   
+</body>
+</html>

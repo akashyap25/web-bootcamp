@@ -1,0 +1,1 @@
+ background-image: linear-gradient(to right, rgb(255, 174, 174), rgb(115, 157, 255));
